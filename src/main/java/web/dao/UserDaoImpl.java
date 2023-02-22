@@ -21,12 +21,10 @@ public class UserDaoImpl implements UserDao{
         return entityManager.find(User.class, id);
     }
     @Override
-    public void createNewUser(User user) {
+    public void saveNewUser(User user) {
         entityManager.persist(user);
         entityManager.flush();
     }
-
-
 
     @Override
     public void updateUser(User user) {

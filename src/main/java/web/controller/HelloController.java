@@ -15,8 +15,12 @@ public class HelloController {
 	public String printWelcome(ModelMap model) {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
-		messages.add("I'm Spring MVC application");
-		messages.add("5.2.0 version by sep'19 ");
+		messages.add("I am the only one like this:");
+		messages.add("    db/new ->    C");
+		messages.add("    db/users ->  R");
+		messages.add("    db/{id} ->   R");
+		messages.add("    db/update -> U");
+		messages.add("    db/ ->       D");
 		model.addAttribute("messages", messages);
 		return "index";
 	}

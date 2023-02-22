@@ -7,7 +7,7 @@ public interface UserService {
 
     //UserDao userDao = new UserDaoImpl();
 
-    void createNewUser(User user);
+    void saveNewUser(User user);
 
     List<User> getAllUsers();
 
