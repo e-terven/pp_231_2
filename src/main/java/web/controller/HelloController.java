@@ -16,11 +16,11 @@ public class HelloController {
 		List<String> messages = new ArrayList<>();
 		messages.add("Hello!");
 		messages.add("I am the only one like this:");
-		messages.add("    db/new ->    C");
-		messages.add("    db/users ->  R");
-		messages.add("    db/{id} ->   R");
-		messages.add("    db/update -> U");
-		messages.add("    db/ ->       D");
+		messages.add("    db/new ->       C");
+		messages.add("    db/ ->          R");
+		messages.add("    db/{id} ->      R");
+		messages.add("    db/{id}/edit -> U");
+		messages.add("    db/{id} ->          D");
 		model.addAttribute("messages", messages);
 		return "index";
 	}

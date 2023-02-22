@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Add user</title>
-  </head>
+    <title>Edit User</title>
+</head>
 <body>
-<h1> Add User: </h1>
-<form th:method="POST" th:action="@{/db}" th:object="${user}">
-<!--  <form th:method="POST" th:action="@{/users/{id}(id=${user.getId()})}" th:object="${user}">-->
+<h1> Edit User: </h1>
+<form method="POST" th:method="PATCH" th:action="@{/db/{id}(id=${user.id})}" th:object="${user}">
+  <input type="hidden" th:field="*{id}"/>
+  <br/>
   <label for="name">Name: </label>
   <input th:field="*{name}" type="text" id="name"/>
   <br/>
@@ -16,7 +18,7 @@
   <label for="age">Age: </label>
   <input th:field="*{age}" type="text" id="age"/>
   <br/>
-  <input type="submit" value="Add User">
+  <input type="submit" value="Update">
 </form>
 </body>
 </html>

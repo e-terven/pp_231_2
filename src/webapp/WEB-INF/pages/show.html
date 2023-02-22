@@ -19,7 +19,14 @@
         <td th:text="${user.getAge()}"></td>
     </tr>
 </table>
-
-<a href="/db/users">Show all users</a>
+<br/>
+<br/>
+<a href="/db/">Show all users</a>
+<br/>
+<a th:href="@{/db/{id}/edit(id=${user.getId()})}">Edit</a>
+<br/>
+<form th:method="DELETE" th:action="@{/db/}">
+    <input type="submit" value="Delete"/>
+</form>
 </body>
 </html>
