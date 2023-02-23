@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc-crud-app" />
+        <module name="pp_231" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
