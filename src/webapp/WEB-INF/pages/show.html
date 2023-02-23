@@ -21,12 +21,13 @@
 </table>
 <br/>
 <br/>
-<a href="/db/">Show all users</a>
+<a href="/db">Show all users</a>
 <br/>
 <a th:href="@{/db/{id}/edit(id=${user.getId()})}">Edit</a>
 <br/>
-<form th:method="DELETE" th:action="@{/db/}">
-    <input type="submit" value="Delete"/>
+<form method="POST" th:method="DELETE" th:action="@{/db/{id}(id=${user.getId()})}" th:object="${user}">
+    <input type="hidden" th:field="*{id}"/>
+    <input type="submit" value="Delete">
 </form>
 </body>
 </html>
