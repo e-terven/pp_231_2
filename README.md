@@ -16,8 +16,7 @@ CRUD web-application
 ![alt-текст](https://github.com/e-terven/pp_231_2/blob/17277408ad005766db5c20932db7b7ceb0313909/images/Read%202023-07-16%20at%2020.36.00.png)
 ----
 
-### UPDATE
-### DELETE
+### UPDATE / DELETE
 ----
 ![alt-текст](https://github.com/e-terven/pp_231_2/blob/8e9e17ab037dea5d01780373db4576789195ac15/images/Update_Delete%202023-07-16%20at%2020.26.48.png)
 ----
