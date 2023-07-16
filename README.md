@@ -1,5 +1,17 @@
 # pp_231_2
-CRUD MVC-application. Used @Controllers and built Views with HTML.
+
+I utilized Spring MVC + Hibernate to develop a Java-based CRUD application. 
+
+#### Project Objectives:
+
+- Configured application properties for certain **dependencies** 
+- Configured application deployment on the **Tomcat** port
+ ----
+- Defined the **entity** User with arbitrary fields (id, name, etc.) that comprise this application scenario
+- Implemented a **View** in the application that displays all users with the ability to add, delete, and update users
+- Define the **API contracts** that will enable this application scenario
+- Leverage the convenience of **Lombok**  
+ ----    
 
 ### CREATE
 ----
