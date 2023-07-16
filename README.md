@@ -1,4 +1,4 @@
-# pp_231_2
+# MVC app
 
 I utilized Spring MVC + Hibernate to develop a Java-based CRUD application. 
 
