@@ -1,5 +1,5 @@
 # pp_231_2
-CRUD web-application
+CRUD MVC-application. Used @Controllers and built Views with HTML.
 
 ### CREATE
 ----
